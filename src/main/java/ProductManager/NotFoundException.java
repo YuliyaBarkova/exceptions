@@ -1,9 +1,9 @@
 package ProductManager;
 
-public class NotFoundException extends RuntimeException{
+public class NotFoundException extends RuntimeException {
 
     public NotFoundException(int id) {
-        super ("Товар с id = " + id + "не найден ");
+        super("Товар с id = " + id + "не найден ");
 
     }
 }
